@@ -1,0 +1,1481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1180" height="610" viewBox="0 0 1180 610"
+     role="img" aria-labelledby="title desc">
+  <title id="title">Perfil profissional animado de olverclock</title>
+  <desc id="desc">Perfil técnico de olverclock, Técnico de Informática e Suporte Remoto, com mais de 10 anos de experiência. Foco em infraestrutura, software, automação, IA, Linux, Docker, self-hosted e open source.</desc>
+
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020705"/>
+      <stop offset="52%" stop-color="#03120c"/>
+      <stop offset="100%" stop-color="#02131e"/>
+    </linearGradient>
+
+    <radialGradient id="orbGreen" cx="30%" cy="22%" r="74%">
+      <stop offset="0%" stop-color="#29f0a7" stop-opacity=".20"/>
+      <stop offset="100%" stop-color="#29f0a7" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="orbBlue" cx="72%" cy="70%" r="68%">
+      <stop offset="0%" stop-color="#39bdf8" stop-opacity=".18"/>
+      <stop offset="100%" stop-color="#39bdf8" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#29f0a7"/>
+      <stop offset="52%" stop-color="#39bdf8"/>
+      <stop offset="100%" stop-color="#29f0a7"/>
+    </linearGradient>
+
+    <linearGradient id="portraitGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#29f0a7">
+        <animate attributeName="stop-color"
+                 values="#29f0a7;#73e8ff;#29f0a7"
+                 dur="7s"
+                 repeatCount="indefinite"/>
+      </stop>
+      <stop offset="55%" stop-color="#effff8"/>
+      <stop offset="100%" stop-color="#39bdf8">
+        <animate attributeName="stop-color"
+                 values="#39bdf8;#29f0a7;#39bdf8"
+                 dur="9s"
+                 repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24"
+            fill="none"
+            stroke="#28e99f"
+            stroke-opacity=".11"
+            stroke-width=".7"/>
+    </pattern>
+
+    <clipPath id="portraitClip">
+      <rect x="45" y="108" width="386" height="354" rx="18"/>
+    </clipPath>
+
+    <clipPath id="nameClip">
+      <rect x="500" y="145" width="630" height="62">
+        <animate attributeName="width"
+                 values="0;630"
+                 dur="1.35s"
+                 begin="1.25s"
+                 fill="freeze"/>
+      </rect>
+    </clipPath>
+
+    <clipPath id="promptClip">
+      <rect x="500" y="110" width="430" height="28">
+        <animate attributeName="width"
+                 values="0;430"
+                 dur="1.10s"
+                 begin=".25s"
+                 fill="freeze"/>
+      </rect>
+    </clipPath>
+
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="8" stdDeviation="11"
+                    flood-color="#000000"
+                    flood-opacity=".42"/>
+    </filter>
+
+    <filter id="glow" x="-70%" y="-70%" width="240%" height="240%">
+      <feGaussianBlur stdDeviation="2.8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <style>
+      .ui { font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace; }
+      .label { font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace; font-size:12px; font-weight:700; letter-spacing:1.15px; fill:#6e9a88; }
+      .value { font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace; font-size:13.5px; font-weight:700; fill:#effff8; }
+      .pill { font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace; font-size:11.7px; font-weight:700; fill:#effff8; }
+      .tiny { font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace; font-size:9px; font-weight:700; fill:#6e9a88; letter-spacing:.8px; }
+    </style>
+  </defs>
+
+  <!-- Fundo e atmosfera -->
+  <rect width="1180" height="610" rx="24" fill="url(#bgGradient)"/>
+  <rect width="1180" height="610" rx="24" fill="url(#grid)">
+    <animateTransform attributeName="transform"
+                      type="translate"
+                      values="0 0;24 24;0 0"
+                      dur="22s"
+                      repeatCount="indefinite"/>
+  </rect>
+
+  <rect width="1180" height="610" rx="24" fill="url(#orbGreen)">
+    <animate attributeName="opacity"
+             values=".70;1;.76;.70"
+             dur="10s"
+             repeatCount="indefinite"/>
+  </rect>
+
+  <rect width="1180" height="610" rx="24" fill="url(#orbBlue)">
+    <animate attributeName="opacity"
+             values=".65;.95;.72;.65"
+             dur="13s"
+             repeatCount="indefinite"/>
+  </rect>
+
+  
+          <circle cx="92" cy="88" r="2.0" fill="#73e8ff" opacity=".28">
+            <animate attributeName="cy"
+                     values="88;78;88"
+                     dur="10.5s"
+                     repeatCount="indefinite"/>
+            <animate attributeName="opacity"
+                     values=".12;.42;.12"
+                     dur="10.5s"
+                     repeatCount="indefinite"/>
+          </circle>
+          <circle cx="164" cy="75" r="1.4" fill="#73e8ff" opacity=".28">
+            <animate attributeName="cy"
+                     values="75;65;75"
+                     dur="8.4s"
+                     repeatCount="indefinite"/>
+            <animate attributeName="opacity"
+                     values=".12;.42;.12"
+                     dur="8.4s"
+                     repeatCount="indefinite"/>
+          </circle>
+          <circle cx="260" cy="92" r="1.8" fill="#73e8ff" opacity=".28">
+            <animate attributeName="cy"
+                     values="92;82;92"
+                     dur="12.0s"
+                     repeatCount="indefinite"/>
+            <animate attributeName="opacity"
+                     values=".12;.42;.12"
+                     dur="12.0s"
+                     repeatCount="indefinite"/>
+          </circle>
+          <circle cx="384" cy="82" r="1.2" fill="#73e8ff" opacity=".28">
+            <animate attributeName="cy"
+                     values="82;72;82"
+                     dur="9.6s"
+                     repeatCount="indefinite"/>
+            <animate attributeName="opacity"
+                     values=".12;.42;.12"
+                     dur="9.6s"
+                     repeatCount="indefinite"/>
+          </circle>
+          <circle cx="112" cy="535" r="1.5" fill="#73e8ff" opacity=".28">
+            <animate attributeName="cy"
+                     values="535;525;535"
+                     dur="11.7s"
+                     repeatCount="indefinite"/>
+            <animate attributeName="opacity"
+                     values=".12;.42;.12"
+                     dur="11.7s"
+                     repeatCount="indefinite"/>
+          </circle>
+          <circle cx="238" cy="548" r="1.8" fill="#73e8ff" opacity=".28">
+            <animate attributeName="cy"
+                     values="548;538;548"
+                     dur="10.1s"
+                     repeatCount="indefinite"/>
+            <animate attributeName="opacity"
+                     values=".12;.42;.12"
+                     dur="10.1s"
+                     repeatCount="indefinite"/>
+          </circle>
+          <circle cx="356" cy="530" r="1.3" fill="#73e8ff" opacity=".28">
+            <animate attributeName="cy"
+                     values="530;520;530"
+                     dur="8.9s"
+                     repeatCount="indefinite"/>
+            <animate attributeName="opacity"
+                     values=".12;.42;.12"
+                     dur="8.9s"
+                     repeatCount="indefinite"/>
+          </circle>
+          <circle cx="1090" cy="122" r="1.5" fill="#73e8ff" opacity=".28">
+            <animate attributeName="cy"
+                     values="122;112;122"
+                     dur="11.1s"
+                     repeatCount="indefinite"/>
+            <animate attributeName="opacity"
+                     values=".12;.42;.12"
+                     dur="11.1s"
+                     repeatCount="indefinite"/>
+          </circle>
+          <circle cx="1115" cy="172" r="1.1" fill="#73e8ff" opacity=".28">
+            <animate attributeName="cy"
+                     values="172;162;172"
+                     dur="9.2s"
+                     repeatCount="indefinite"/>
+            <animate attributeName="opacity"
+                     values=".12;.42;.12"
+                     dur="9.2s"
+                     repeatCount="indefinite"/>
+          </circle>
+          <circle cx="1080" cy="515" r="1.7" fill="#73e8ff" opacity=".28">
+            <animate attributeName="cy"
+                     values="515;505;515"
+                     dur="12.4s"
+                     repeatCount="indefinite"/>
+            <animate attributeName="opacity"
+                     values=".12;.42;.12"
+                     dur="12.4s"
+                     repeatCount="indefinite"/>
+          </circle>
+          <circle cx="1018" cy="565" r="1.2" fill="#73e8ff" opacity=".28">
+            <animate attributeName="cy"
+                     values="565;555;565"
+                     dur="8.8s"
+                     repeatCount="indefinite"/>
+            <animate attributeName="opacity"
+                     values=".12;.42;.12"
+                     dur="8.8s"
+                     repeatCount="indefinite"/>
+          </circle>
+  
+          <text x="495" y="86"
+                font-family="ui-monospace,monospace"
+                font-size="8"
+                fill="#29f0a7"
+                opacity="0.055">
+            01
+            <animate attributeName="y"
+                     values="86;305;86"
+                     dur="7.0s"
+                     repeatCount="indefinite"/>
+            <animate attributeName="opacity"
+                     values=".02;.10;.02"
+                     dur="7.0s"
+                     repeatCount="indefinite"/>
+          </text>
+          <text x="535" y="104"
+                font-family="ui-monospace,monospace"
+                font-size="8"
+                fill="#29f0a7"
+                opacity="0.055">
+            10
+            <animate attributeName="y"
+                     values="104;329;104"
+                     dur="8.2s"
+                     repeatCount="indefinite"/>
+            <animate attributeName="opacity"
+                     values=".02;.10;.02"
+                     dur="8.2s"
+                     repeatCount="indefinite"/>
+          </text>
+          <text x="575" y="122"
+                font-family="ui-monospace,monospace"
+                font-size="8"
+                fill="#29f0a7"
+                opacity="0.055">
+            λ
+            <animate attributeName="y"
+                     values="122;353;122"
+                     dur="9.5s"
+                     repeatCount="indefinite"/>
+            <animate attributeName="opacity"
+                     values=".02;.10;.02"
+                     dur="9.5s"
+                     repeatCount="indefinite"/>
+          </text>
+          <text x="615" y="140"
+                font-family="ui-monospace,monospace"
+                font-size="8"
+                fill="#29f0a7"
+                opacity="0.055">
+            {}
+            <animate attributeName="y"
+                     values="140;377;140"
+                     dur="10.8s"
+                     repeatCount="indefinite"/>
+            <animate attributeName="opacity"
+                     values=".02;.10;.02"
+                     dur="10.8s"
+                     repeatCount="indefinite"/>
+          </text>
+          <text x="655" y="86"
+                font-family="ui-monospace,monospace"
+                font-size="8"
+                fill="#29f0a7"
+                opacity="0.055">
+            //
+            <animate attributeName="y"
+                     values="86;401;86"
+                     dur="12.0s"
+                     repeatCount="indefinite"/>
+            <animate attributeName="opacity"
+                     values=".02;.10;.02"
+                     dur="12.0s"
+                     repeatCount="indefinite"/>
+          </text>
+          <text x="695" y="104"
+                font-family="ui-monospace,monospace"
+                font-size="8"
+                fill="#29f0a7"
+                opacity="0.055">
+            AI
+            <animate attributeName="y"
+                     values="104;305;104"
+                     dur="7.0s"
+                     repeatCount="indefinite"/>
+            <animate attributeName="opacity"
+                     values=".02;.10;.02"
+                     dur="7.0s"
+                     repeatCount="indefinite"/>
+          </text>
+          <text x="735" y="122"
+                font-family="ui-monospace,monospace"
+                font-size="8"
+                fill="#29f0a7"
+                opacity="0.055">
+            01
+            <animate attributeName="y"
+                     values="122;329;122"
+                     dur="8.2s"
+                     repeatCount="indefinite"/>
+            <animate attributeName="opacity"
+                     values=".02;.10;.02"
+                     dur="8.2s"
+                     repeatCount="indefinite"/>
+          </text>
+          <text x="775" y="140"
+                font-family="ui-monospace,monospace"
+                font-size="8"
+                fill="#29f0a7"
+                opacity="0.055">
+            10
+            <animate attributeName="y"
+                     values="140;353;140"
+                     dur="9.5s"
+                     repeatCount="indefinite"/>
+            <animate attributeName="opacity"
+                     values=".02;.10;.02"
+                     dur="9.5s"
+                     repeatCount="indefinite"/>
+          </text>
+          <text x="815" y="86"
+                font-family="ui-monospace,monospace"
+                font-size="8"
+                fill="#29f0a7"
+                opacity="0.055">
+            λ
+            <animate attributeName="y"
+                     values="86;377;86"
+                     dur="10.8s"
+                     repeatCount="indefinite"/>
+            <animate attributeName="opacity"
+                     values=".02;.10;.02"
+                     dur="10.8s"
+                     repeatCount="indefinite"/>
+          </text>
+          <text x="855" y="104"
+                font-family="ui-monospace,monospace"
+                font-size="8"
+                fill="#29f0a7"
+                opacity="0.055">
+            {}
+            <animate attributeName="y"
+                     values="104;401;104"
+                     dur="12.0s"
+                     repeatCount="indefinite"/>
+            <animate attributeName="opacity"
+                     values=".02;.10;.02"
+                     dur="12.0s"
+                     repeatCount="indefinite"/>
+          </text>
+          <text x="895" y="122"
+                font-family="ui-monospace,monospace"
+                font-size="8"
+                fill="#29f0a7"
+                opacity="0.055">
+            //
+            <animate attributeName="y"
+                     values="122;305;122"
+                     dur="7.0s"
+                     repeatCount="indefinite"/>
+            <animate attributeName="opacity"
+                     values=".02;.10;.02"
+                     dur="7.0s"
+                     repeatCount="indefinite"/>
+          </text>
+          <text x="935" y="140"
+                font-family="ui-monospace,monospace"
+                font-size="8"
+                fill="#29f0a7"
+                opacity="0.055">
+            AI
+            <animate attributeName="y"
+                     values="140;329;140"
+                     dur="8.2s"
+                     repeatCount="indefinite"/>
+            <animate attributeName="opacity"
+                     values=".02;.10;.02"
+                     dur="8.2s"
+                     repeatCount="indefinite"/>
+          </text>
+          <text x="975" y="86"
+                font-family="ui-monospace,monospace"
+                font-size="8"
+                fill="#29f0a7"
+                opacity="0.055">
+            01
+            <animate attributeName="y"
+                     values="86;353;86"
+                     dur="9.5s"
+                     repeatCount="indefinite"/>
+            <animate attributeName="opacity"
+                     values=".02;.10;.02"
+                     dur="9.5s"
+                     repeatCount="indefinite"/>
+          </text>
+          <text x="1015" y="104"
+                font-family="ui-monospace,monospace"
+                font-size="8"
+                fill="#29f0a7"
+                opacity="0.055">
+            10
+            <animate attributeName="y"
+                     values="104;377;104"
+                     dur="10.8s"
+                     repeatCount="indefinite"/>
+            <animate attributeName="opacity"
+                     values=".02;.10;.02"
+                     dur="10.8s"
+                     repeatCount="indefinite"/>
+          </text>
+          <text x="1055" y="122"
+                font-family="ui-monospace,monospace"
+                font-size="8"
+                fill="#29f0a7"
+                opacity="0.055">
+            λ
+            <animate attributeName="y"
+                     values="122;401;122"
+                     dur="12.0s"
+                     repeatCount="indefinite"/>
+            <animate attributeName="opacity"
+                     values=".02;.10;.02"
+                     dur="12.0s"
+                     repeatCount="indefinite"/>
+          </text>
+          <text x="1095" y="140"
+                font-family="ui-monospace,monospace"
+                font-size="8"
+                fill="#29f0a7"
+                opacity="0.055">
+            {}
+            <animate attributeName="y"
+                     values="140;305;140"
+                     dur="7.0s"
+                     repeatCount="indefinite"/>
+            <animate attributeName="opacity"
+                     values=".02;.10;.02"
+                     dur="7.0s"
+                     repeatCount="indefinite"/>
+          </text>
+
+  <!-- Moldura animada -->
+  <rect x="12" y="12" width="1156" height="586" rx="22"
+        fill="none" stroke="#18533b" stroke-width="1.1"/>
+
+  <rect x="12" y="12" width="1156" height="586" rx="22"
+        fill="none"
+        stroke="url(#accentGradient)"
+        stroke-width="1.7"
+        stroke-dasharray="90 500"
+        opacity=".72">
+    <animate attributeName="stroke-dashoffset"
+             values="0;-1180"
+             dur="9s"
+             repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Terminal superior -->
+  <g class="ui">
+    <circle cx="38" cy="39" r="5" fill="#ff5f56"/>
+    <circle cx="56" cy="39" r="5" fill="#ffbd2e"/>
+    <circle cx="74" cy="39" r="5" fill="#27c93f"/>
+
+    <g clip-path="url(#promptClip)">
+      <text x="98" y="44" font-size="12" fill="#9bcab7">
+        olver@github:~$ whoami
+      </text>
+    </g>
+
+    <rect x="266" y="32" width="7" height="14" rx="1" fill="#29f0a7">
+      <animate attributeName="opacity"
+               values="1;0;1"
+               dur=".95s"
+               repeatCount="indefinite"/>
+    </rect>
+
+    <circle cx="944" cy="39" r="3.2" fill="#29f0a7" filter="url(#glow)">
+      <animate attributeName="r"
+               values="2.6;4.2;2.6"
+               dur="2.1s"
+               repeatCount="indefinite"/>
+    </circle>
+
+    <text x="1010" y="44" text-anchor="end"
+          font-size="11" font-weight="700" fill="#29f0a7">
+      ONLINE
+    </text>
+
+    <text x="1140" y="44" text-anchor="end"
+          font-size="10" fill="#6e9a88">
+      PT-BR / BRASIL
+    </text>
+  </g>
+
+  <!-- Painel esquerdo -->
+  <g filter="url(#shadow)">
+    <rect x="28" y="66" width="420" height="516" rx="22"
+          fill="#06100c"
+          fill-opacity=".86"
+          stroke="#18533b"/>
+  </g>
+
+  <text x="50" y="95" class="label" fill="#29f0a7">
+    VISUAL.IDENTITY // OLVERCLOCK
+  </text>
+
+  <!-- Radar atrás do retrato -->
+  <g opacity=".28" clip-path="url(#portraitClip)">
+    <circle cx="239" cy="278" r="46"
+            fill="none"
+            stroke="#29f0a7"
+            stroke-width=".8">
+      <animate attributeName="r"
+               values="38;138"
+               dur="5.8s"
+               repeatCount="indefinite"/>
+      <animate attributeName="opacity"
+               values=".55;0"
+               dur="5.8s"
+               repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="239" cy="278" r="52"
+            fill="none"
+            stroke="#39bdf8"
+            stroke-width=".8">
+      <animate attributeName="r"
+               values="48;156"
+               dur="7.2s"
+               begin="1.1s"
+               repeatCount="indefinite"/>
+      <animate attributeName="opacity"
+               values=".4;0"
+               dur="7.2s"
+               begin="1.1s"
+               repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <rect x="45" y="108" width="386" height="354" rx="18"
+        fill="#061914"
+        fill-opacity=".62"
+        stroke="#18533b"
+        stroke-opacity=".78"/>
+
+  <g clip-path="url(#portraitClip)">
+    
+      <text xml:space="preserve"
+            font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"
+            font-size="6.9"
+            font-weight="700"
+            letter-spacing=".08"
+            fill="url(#portraitGradient)">
+        <tspan x="57" y="127.0" opacity="1">   ..:*#%%%%@%%%%%%%%%%%%%%%%%%%%%%%%%%%####*:::::······
+              <animate attributeName="opacity"
+                       values="0;0;1"
+                       keyTimes="0;0.10;1"
+                       dur=".36s"
+                       begin="0.55s"
+                       fill="freeze"/>
+            </tspan><tspan x="57" y="133.8" opacity="1">    :#%%%%%%%%%%%@%%%%%%@@@%%%@@@%%%#%%%%%%%##+:·:······
+              <animate attributeName="opacity"
+                       values="0;0;1"
+                       keyTimes="0;0.10;1"
+                       dur=".36s"
+                       begin="0.57s"
+                       fill="freeze"/>
+            </tspan><tspan x="57" y="140.5" opacity="1">··:+#%%%%@@@%%%%%%%@%%%%@@@%%%@%%%%%%%%%%%%%%%%#+:::····
+              <animate attributeName="opacity"
+                       values="0;0;1"
+                       keyTimes="0;0.10;1"
+                       dur=".36s"
+                       begin="0.59s"
+                       fill="freeze"/>
+            </tspan><tspan x="57" y="147.2" opacity="1">+#%%%%%%%@%@@@%%%@%%%%%%@@@@@@@@%%@@@@%%%%%%%%%%##+·:···
+              <animate attributeName="opacity"
+                       values="0;0;1"
+                       keyTimes="0;0.10;1"
+                       dur=".36s"
+                       begin="0.61s"
+                       fill="freeze"/>
+            </tspan><tspan x="57" y="154.0" opacity="1">%%%%%%%%%@@@@@@%@@@@@@@@@%%@%%@@@@@%%%%%%%%%%%%%%#*::::·
+              <animate attributeName="opacity"
+                       values="0;0;1"
+                       keyTimes="0;0.10;1"
+                       dur=".36s"
+                       begin="0.63s"
+                       fill="freeze"/>
+            </tspan><tspan x="57" y="160.8" opacity="1">%%@@@@@%@@@@@@@%@%@@@@@@%*+**##%%@@%%%%%%%%%%%%%%%%#*+:·
+              <animate attributeName="opacity"
+                       values="0;0;1"
+                       keyTimes="0;0.10;1"
+                       dur=".36s"
+                       begin="0.65s"
+                       fill="freeze"/>
+            </tspan><tspan x="57" y="167.5" opacity="1">%%@@@@%%%@%%#**####%%%#*+·.···++*##*##%#%%%%%%%%%%%%##*:
+              <animate attributeName="opacity"
+                       values="0;0;1"
+                       keyTimes="0;0.10;1"
+                       dur=".36s"
+                       begin="0.67s"
+                       fill="freeze"/>
+            </tspan><tspan x="57" y="174.2" opacity="1">%%@@@@@@%%#*+++++++::··..   ..·:+++:+*+*%##**#%%%%%%%%%*
+              <animate attributeName="opacity"
+                       values="0;0;1"
+                       keyTimes="0;0.10;1"
+                       dur=".36s"
+                       begin="0.69s"
+                       fill="freeze"/>
+            </tspan><tspan x="57" y="181.0" opacity="1">@@@@@@@@%#*++::·:·..  ..     ··:::::::+++:::·:*%%%@%%%%#
+              <animate attributeName="opacity"
+                       values="0;0;1"
+                       keyTimes="0;0.10;1"
+                       dur=".36s"
+                       begin="0.71s"
+                       fill="freeze"/>
+            </tspan><tspan x="57" y="187.8" opacity="1">@@@@@%%#++++:····..  .       .·::·············:+*#%@@%%%
+              <animate attributeName="opacity"
+                       values="0;0;1"
+                       keyTimes="0;0.10;1"
+                       dur=".36s"
+                       begin="0.73s"
+                       fill="freeze"/>
+            </tspan><tspan x="57" y="194.5" opacity="1">@@@%#*++++::··...               .      .......·:+*%%@@%%
+              <animate attributeName="opacity"
+                       values="0;0;1"
+                       keyTimes="0;0.10;1"
+                       dur=".36s"
+                       begin="0.75s"
+                       fill="freeze"/>
+            </tspan><tspan x="57" y="201.2" opacity="1">@@@%#+++::···...                             ..·:*%%%%%%
+              <animate attributeName="opacity"
+                       values="0;0;1"
+                       keyTimes="0;0.10;1"
+                       dur=".36s"
+                       begin="0.77s"
+                       fill="freeze"/>
+            </tspan><tspan x="57" y="208.0" opacity="1">@@%#*++:::······....      ........ .......    ..:+#%@%%%
+              <animate attributeName="opacity"
+                       values="0;0;1"
+                       keyTimes="0;0.10;1"
+                       dur=".36s"
+                       begin="0.79s"
+                       fill="freeze"/>
+            </tspan><tspan x="57" y="214.8" opacity="1">@@%#*++:·······················:::·········.....·:+#%@%%
+              <animate attributeName="opacity"
+                       values="0;0;1"
+                       keyTimes="0;0.10;1"
+                       dur=".36s"
+                       begin="0.81s"
+                       fill="freeze"/>
+            </tspan><tspan x="57" y="221.5" opacity="1">@@%*++++*************+++:::::++**#######**++++::···:#@%%
+              <animate attributeName="opacity"
+                       values="0;0;1"
+                       keyTimes="0;0.10;1"
+                       dur=".36s"
+                       begin="0.83s"
+                       fill="freeze"/>
+            </tspan><tspan x="57" y="228.2" opacity="1">@%#*+*********#######***+++++***#####**++++++++++:··:%@%
+              <animate attributeName="opacity"
+                       values="0;0;1"
+                       keyTimes="0;0.10;1"
+                       dur=".36s"
+                       begin="0.85s"
+                       fill="freeze"/>
+            </tspan><tspan x="57" y="235.0" opacity="1">@%*++++++++++***#######***+++**#########***+++:++:···*@%
+              <animate attributeName="opacity"
+                       values="0;0;1"
+                       keyTimes="0;0.10;1"
+                       dur=".36s"
+                       begin="0.87s"
+                       fill="freeze"/>
+            </tspan><tspan x="57" y="241.8" opacity="1">@%*+++++**###%%%%#*#####*:.  ·+######%%%%##%%#**+:·.·:%%
+              <animate attributeName="opacity"
+                       values="0;0;1"
+                       keyTimes="0;0.10;1"
+                       dur=".36s"
+                       begin="0.89s"
+                       fill="freeze"/>
+            </tspan><tspan x="57" y="248.5" opacity="1">@%+++++**###*#%%%#*##*#*:·.   ·+*****####*****+:··...·*%
+              <animate attributeName="opacity"
+                       values="0;0;1"
+                       keyTimes="0;0.10;1"
+                       dur=".36s"
+                       begin="0.91s"
+                       fill="freeze"/>
+            </tspan><tspan x="57" y="255.2" opacity="1">@%++++++++*****#******++:.    ..·:++++***+++:·.    ..·+%
+              <animate attributeName="opacity"
+                       values="0;0;1"
+                       keyTimes="0;0.10;1"
+                       dur=".36s"
+                       begin="0.93s"
+                       fill="freeze"/>
+            </tspan><tspan x="57" y="262.0" opacity="1">@#++:::++++++*****+++:+:·.    ..···....····..      ..·:#
+              <animate attributeName="opacity"
+                       values="0;0;1"
+                       keyTimes="0;0.10;1"
+                       dur=".36s"
+                       begin="0.95s"
+                       fill="freeze"/>
+            </tspan><tspan x="57" y="268.8" opacity="1">%#+::::::++++++++::::::::··...·······.           ....·::
+              <animate attributeName="opacity"
+                       values="0;0;1"
+                       keyTimes="0;0.10;1"
+                       dur=".36s"
+                       begin="0.97s"
+                       fill="freeze"/>
+            </tspan><tspan x="57" y="275.5" opacity="1">*#+::::::::::::····:++***+++++*##*:+*:·..     ......·:::
+              <animate attributeName="opacity"
+                       values="0;0;1"
+                       keyTimes="0;0.10;1"
+                       dur=".36s"
+                       begin="0.99s"
+                       fill="freeze"/>
+            </tspan><tspan x="57" y="282.2" opacity="1">::++::::·········::+*#%@%%###%@@@%%%%#*:·.......·····:+:
+              <animate attributeName="opacity"
+                       values="0;0;1"
+                       keyTimes="0;0.10;1"
+                       dur=".36s"
+                       begin="1.01s"
+                       fill="freeze"/>
+            </tspan><tspan x="57" y="289.0" opacity="1">::+++::::······::+*#%@@@@@@@@@@@@@@@%%%%*:··········:+:·
+              <animate attributeName="opacity"
+                       values="0;0;1"
+                       keyTimes="0;0.10;1"
+                       dur=".36s"
+                       begin="1.03s"
+                       fill="freeze"/>
+            </tspan><tspan x="57" y="295.8" opacity="1">:+*+++::::+::::++#%@@@@@@@@@@@@@@@@%%%%%%*+:::::::·::++:
+              <animate attributeName="opacity"
+                       values="0;0;1"
+                       keyTimes="0;0.10;1"
+                       dur=".36s"
+                       begin="1.05s"
+                       fill="freeze"/>
+            </tspan><tspan x="57" y="302.5" opacity="1">+:+*++++++++++***%@@%%%%%%%%###**++**###**+++:::::::::::
+              <animate attributeName="opacity"
+                       values="0;0;1"
+                       keyTimes="0;0.10;1"
+                       dur=".36s"
+                       begin="1.07s"
+                       fill="freeze"/>
+            </tspan><tspan x="57" y="309.2" opacity="1">. .+++++++++++***###########************+++++++:::::::
+              <animate attributeName="opacity"
+                       values="0;0;1"
+                       keyTimes="0;0.10;1"
+                       dur=".36s"
+                       begin="1.09s"
+                       fill="freeze"/>
+            </tspan><tspan x="57" y="316.0" opacity="1">..·:++++++++++***####%%%%#####**####%%#*+::::::::::::·
+              <animate attributeName="opacity"
+                       values="0;0;1"
+                       keyTimes="0;0.10;1"
+                       dur=".36s"
+                       begin="1.11s"
+                       fill="freeze"/>
+            </tspan><tspan x="57" y="322.8" opacity="1">· .:+++++++++:+**#####***+::··..··:++++++::::::::::::···
+              <animate attributeName="opacity"
+                       values="0;0;1"
+                       keyTimes="0;0.10;1"
+                       dur=".36s"
+                       begin="1.13s"
+                       fill="freeze"/>
+            </tspan><tspan x="57" y="329.5" opacity="1">+..:**+++++++++*******************+++::::+:::::::::+::··
+              <animate attributeName="opacity"
+                       values="0;0;1"
+                       keyTimes="0;0.10;1"
+                       dur=".36s"
+                       begin="1.15s"
+                       fill="freeze"/>
+            </tspan><tspan x="57" y="336.2" opacity="1">*:+#%#+++++++++***********###*****++::··:+++::::++++:::·
+              <animate attributeName="opacity"
+                       values="0;0;1"
+                       keyTimes="0;0.10;1"
+                       dur=".36s"
+                       begin="1.17s"
+                       fill="freeze"/>
+            </tspan><tspan x="57" y="343.0" opacity="1">*#%%%%**++++++++*+++++++****++++++::::::::+++++++++*+++:
+              <animate attributeName="opacity"
+                       values="0;0;1"
+                       keyTimes="0;0.10;1"
+                       dur=".36s"
+                       begin="1.19s"
+                       fill="freeze"/>
+            </tspan><tspan x="57" y="349.8" opacity="1">#%%%@@%**+++++++++++++++++::::::··:::::::++++++++*+:+*++
+              <animate attributeName="opacity"
+                       values="0;0;1"
+                       keyTimes="0;0.10;1"
+                       dur=".36s"
+                       begin="1.21s"
+                       fill="freeze"/>
+            </tspan><tspan x="57" y="356.5" opacity="1">#%%%@@%#******++++++++++++:+:::::::::::+++++++++*+:. ·**
+              <animate attributeName="opacity"
+                       values="0;0;1"
+                       keyTimes="0;0.10;1"
+                       dur=".36s"
+                       begin="1.23s"
+                       fill="freeze"/>
+            </tspan><tspan x="57" y="363.2" opacity="1">#%%%@%%###**********+*++++++++++++++++++++++++***+..· ·#
+              <animate attributeName="opacity"
+                       values="0;0;1"
+                       keyTimes="0;0.10;1"
+                       dur=".36s"
+                       begin="1.25s"
+                       fill="freeze"/>
+            </tspan><tspan x="57" y="370.0" opacity="1">%@%%@%%########**#**#*#********************+****++:. · ·
+              <animate attributeName="opacity"
+                       values="0;0;1"
+                       keyTimes="0;0.10;1"
+                       dur=".36s"
+                       begin="1.27s"
+                       fill="freeze"/>
+            </tspan><tspan x="57" y="376.8" opacity="1">%%%%%%%%####%%#######%%##############*******#***+++·  .
+              <animate attributeName="opacity"
+                       values="0;0;1"
+                       keyTimes="0;0.10;1"
+                       dur=".36s"
+                       begin="1.29s"
+                       fill="freeze"/>
+            </tspan><tspan x="57" y="383.5" opacity="1">%%%%%##%##*##%%%%%%%%%%#####################***++*+·   .
+              <animate attributeName="opacity"
+                       values="0;0;1"
+                       keyTimes="0;0.10;1"
+                       dur=".36s"
+                       begin="1.31s"
+                       fill="freeze"/>
+            </tspan><tspan x="57" y="390.2" opacity="1">#%%%%######**##%%%@%%%%%%%####%##%%%%%%%##********+:.
+              <animate attributeName="opacity"
+                       values="0;0;1"
+                       keyTimes="0;0.10;1"
+                       dur=".36s"
+                       begin="1.33s"
+                       fill="freeze"/>
+            </tspan><tspan x="57" y="397.0" opacity="1">*##########****###%%%%%%%%%%%%%%%%%%%##***+++****+:::
+              <animate attributeName="opacity"
+                       values="0;0;1"
+                       keyTimes="0;0.10;1"
+                       dur=".36s"
+                       begin="1.35s"
+                       fill="freeze"/>
+            </tspan><tspan x="57" y="403.8" opacity="1">:+##*###**##*******#####%%%%%%%#####**++++++**+::::++.
+              <animate attributeName="opacity"
+                       values="0;0;1"
+                       keyTimes="0;0.10;1"
+                       dur=".36s"
+                       begin="1.37s"
+                       fill="freeze"/>
+            </tspan><tspan x="57" y="410.5" opacity="1">·::*++*#*****************#####****++++++++++++·.:::++·
+              <animate attributeName="opacity"
+                       values="0;0;1"
+                       keyTimes="0;0.10;1"
+                       dur=".36s"
+                       begin="1.39s"
+                       fill="freeze"/>
+            </tspan><tspan x="57" y="417.2" opacity="1">.::::::***********+++++++*****++++++++++++++:. .::.·+:.:
+              <animate attributeName="opacity"
+                       values="0;0;1"
+                       keyTimes="0;0.10;1"
+                       dur=".36s"
+                       begin="1.41s"
+                       fill="freeze"/>
+            </tspan><tspan x="57" y="424.0" opacity="1">#+::·. .:++**+***+++++++++++++++++::::++++·     ·:  +:·%
+              <animate attributeName="opacity"
+                       values="0;0;1"
+                       keyTimes="0;0.10;1"
+                       dur=".36s"
+                       begin="1.43s"
+                       fill="freeze"/>
+            </tspan><tspan x="57" y="430.8" opacity="1">%#*:··   .::+++++++++++++++++++++::++::·.       .:··::+%
+              <animate attributeName="opacity"
+                       values="0;0;1"
+                       keyTimes="0;0.10;1"
+                       dur=".36s"
+                       begin="1.45s"
+                       fill="freeze"/>
+            </tspan><tspan x="57" y="437.5" opacity="1">*###+:      .·:+++++++++++++++++++::·.          ·+::++++
+              <animate attributeName="opacity"
+                       values="0;0;1"
+                       keyTimes="0;0.10;1"
+                       dur=".36s"
+                       begin="1.47s"
+                       fill="freeze"/>
+            </tspan>
+      </text>
+    
+
+    <!-- scanners duplos -->
+    <rect x="48" y="112" width="380" height="2" rx="1"
+          fill="#29f0a7" opacity=".42" filter="url(#glow)">
+      <animateTransform attributeName="transform"
+                        type="translate"
+                        values="0 0;0 338;0 0"
+                        dur="5.6s"
+                        repeatCount="indefinite"/>
+    </rect>
+
+    <rect x="48" y="445" width="380" height="1" rx=".5"
+          fill="#39bdf8" opacity=".22">
+      <animateTransform attributeName="transform"
+                        type="translate"
+                        values="0 0;0 -330;0 0"
+                        dur="8.3s"
+                        repeatCount="indefinite"/>
+    </rect>
+
+    <!-- crosshair/radar -->
+    <g transform="translate(239 278)" opacity=".33">
+      <circle r="112" fill="none"
+              stroke="#73e8ff"
+              stroke-dasharray="18 16"
+              stroke-width=".8">
+        <animateTransform attributeName="transform"
+                          type="rotate"
+                          from="0" to="360"
+                          dur="24s"
+                          repeatCount="indefinite"/>
+      </circle>
+
+      <circle r="126" fill="none"
+              stroke="#29f0a7"
+              stroke-dasharray="6 22"
+              stroke-width=".8">
+        <animateTransform attributeName="transform"
+                          type="rotate"
+                          from="360" to="0"
+                          dur="31s"
+                          repeatCount="indefinite"/>
+      </circle>
+    </g>
+  </g>
+
+  <!-- Identidade -->
+  <g opacity="1">
+    <animate attributeName="opacity"
+             values="0;1"
+             dur=".65s"
+             begin="2.10s"
+             fill="freeze"/>
+    <text x="50" y="495" class="tiny">IDENTITY</text>
+    <text x="50" y="520" class="ui"
+          font-size="20" font-weight="800"
+          fill="#effff8">
+      Infraestrutura + Software
+    </text>
+    <text x="50" y="544" class="ui"
+          font-size="12"
+          fill="#9bcab7">
+      Desenvolvedor criativo · soluções práticas
+    </text>
+    <text x="50" y="566" class="ui"
+          font-size="10.5"
+          fill="#29f0a7">
+      Liberdade · Igualdade · Fraternidade
+    </text>
+  </g>
+
+  <!-- Painel direito -->
+  <g filter="url(#shadow)">
+    <rect x="470" y="66" width="682" height="516" rx="22"
+          fill="#06100c"
+          fill-opacity=".86"
+          stroke="#18533b"/>
+  </g>
+
+  <text x="500" y="100" class="label" fill="#29f0a7">
+    SYSTEM.INFO
+  </text>
+
+  <g clip-path="url(#promptClip)">
+    <text x="500" y="129" class="ui"
+          font-size="12"
+          fill="#9bcab7">
+      olver@github:~$ ./profile.sh --professional
+    </text>
+  </g>
+
+  <rect x="795" y="117" width="7" height="14" rx="1" fill="#29f0a7">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.05s"
+             repeatCount="indefinite"/>
+  </rect>
+
+  <g clip-path="url(#nameClip)">
+    <text x="500" y="186" class="ui"
+          font-size="38"
+          font-weight="900"
+          letter-spacing="1.5"
+          fill="#effff8">
+      OLVERCLOCK
+    </text>
+  </g>
+
+  <rect x="500" y="199" width="264" height="3" rx="1.5"
+        fill="url(#accentGradient)">
+    <animate attributeName="width"
+             values="44;264;214;264"
+             dur="4.8s"
+             repeatCount="indefinite"/>
+  </rect>
+
+  <g opacity="1">
+    <animate attributeName="opacity"
+             values="0;1"
+             dur=".55s"
+             begin="1.90s"
+             fill="freeze"/>
+    <animateTransform attributeName="transform"
+                      type="translate"
+                      values="0 8;0 0"
+                      dur=".55s"
+                      begin="1.90s"
+                      fill="freeze"/>
+
+    <text x="500" y="231" class="ui"
+          font-size="15"
+          font-weight="800"
+          fill="#29f0a7">
+      Técnico de Informática · Suporte Remoto
+    </text>
+
+    <text x="500" y="254" class="ui"
+          font-size="13"
+          fill="#9bcab7">
+      Automação · IA · Self-hosted · Open Source
+    </text>
+  </g>
+
+  <!-- Telemetria animada -->
+  
+          <g transform="translate(900 272)">
+            <text x="0" y="0" class="tiny">CPU</text>
+            <rect x="0" y="8" width="68" height="5.5" rx="2.75" fill="#18533b" opacity=".35"/>
+            <rect x="0" y="8" width="43.5" height="5.5" rx="2.75" fill="#29f0a7" opacity=".78">
+              <animate attributeName="width"
+                       values="31.3;43.5;35.7;43.5"
+                       dur="4.6s"
+                       repeatCount="indefinite"/>
+            </rect>
+          </g>
+          <g transform="translate(982 272)">
+            <text x="0" y="0" class="tiny">MEM</text>
+            <rect x="0" y="8" width="68" height="5.5" rx="2.75" fill="#18533b" opacity=".35"/>
+            <rect x="0" y="8" width="53.0" height="5.5" rx="2.75" fill="#39bdf8" opacity=".78">
+              <animate attributeName="width"
+                       values="38.2;53.0;43.5;53.0"
+                       dur="4.9s"
+                       repeatCount="indefinite"/>
+            </rect>
+          </g>
+          <g transform="translate(1064 272)">
+            <text x="0" y="0" class="tiny">NET</text>
+            <rect x="0" y="8" width="68" height="5.5" rx="2.75" fill="#18533b" opacity=".35"/>
+            <rect x="0" y="8" width="35.4" height="5.5" rx="2.75" fill="#73e8ff" opacity=".78">
+              <animate attributeName="width"
+                       values="25.5;35.4;29.0;35.4"
+                       dur="5.3s"
+                       repeatCount="indefinite"/>
+            </rect>
+          </g>
+
+  <g opacity="1">
+    <animate attributeName="opacity"
+             values="0;1"
+             dur=".55s"
+             begin="2.15s"
+             fill="freeze"/>
+
+    <text x="500" y="286" class="ui"
+          font-size="12.2"
+          fill="#effff8">
+      Desenvolvo ferramentas, automações e projetos próprios
+    </text>
+
+    <text x="500" y="305" class="ui"
+          font-size="12.2"
+          fill="#effff8">
+      focados em resolver problemas reais.
+    </text>
+  </g>
+
+  
+    <g opacity="1">
+      <animate attributeName="opacity" values="0;1" dur=".50s" begin="2.28s" fill="freeze"/>
+      <animateTransform attributeName="transform"
+                        type="translate"
+                        values="16 0;0 0"
+                        dur=".50s"
+                        begin="2.28s"
+                        fill="freeze"/>
+      <text x="520" y="338" class="label">&gt; LOCAL</text>
+      <text x="670" y="338" class="value">Brasil</text>
+    </g>
+  
+    <g opacity="1">
+      <animate attributeName="opacity" values="0;1" dur=".50s" begin="2.42s" fill="freeze"/>
+      <animateTransform attributeName="transform"
+                        type="translate"
+                        values="16 0;0 0"
+                        dur=".50s"
+                        begin="2.42s"
+                        fill="freeze"/>
+      <text x="520" y="365" class="label">&gt; EXPERIÊNCIA</text>
+      <text x="670" y="365" class="value">+10 anos</text>
+    </g>
+
+  <text x="500" y="396" class="label">FOCO.PRINCIPAL</text>
+  
+    <g transform="translate(520 406)" opacity="1">
+      <animate attributeName="opacity"
+               values="0;1"
+               dur=".42s"
+               begin="2.55s"
+               fill="freeze"/>
+      <animateTransform attributeName="transform"
+                        additive="sum"
+                        type="translate"
+                        values="0 0;0 -3;0 0"
+                        dur="4.00s"
+                        begin="2.90s"
+                        repeatCount="indefinite"/>
+      <rect width="86" height="30" rx="15"
+            fill="#071b13" fill-opacity=".82"
+            stroke="#1e6b4c" stroke-opacity=".82"/>
+      <circle cx="15" cy="15" r="3" fill="#28f0a5">
+        <animate attributeName="r"
+                 values="2.6;4.1;2.6"
+                 dur="2.30s"
+                 repeatCount="indefinite"/>
+        <animate attributeName="opacity"
+                 values=".55;1;.55"
+                 dur="2.70s"
+                 repeatCount="indefinite"/>
+      </circle>
+      <text x="27" y="19.5" class="pill">IA</text>
+    </g>
+    <g transform="translate(594 406)" opacity="1">
+      <animate attributeName="opacity"
+               values="0;1"
+               dur=".42s"
+               begin="2.65s"
+               fill="freeze"/>
+      <animateTransform attributeName="transform"
+                        additive="sum"
+                        type="translate"
+                        values="0 0;0 -3;0 0"
+                        dur="4.55s"
+                        begin="3.00s"
+                        repeatCount="indefinite"/>
+      <rect width="99" height="30" rx="15"
+            fill="#071b13" fill-opacity=".82"
+            stroke="#1e6b4c" stroke-opacity=".82"/>
+      <circle cx="15" cy="15" r="3" fill="#28f0a5">
+        <animate attributeName="r"
+                 values="2.6;4.1;2.6"
+                 dur="2.65s"
+                 repeatCount="indefinite"/>
+        <animate attributeName="opacity"
+                 values=".55;1;.55"
+                 dur="3.00s"
+                 repeatCount="indefinite"/>
+      </circle>
+      <text x="27" y="19.5" class="pill">Automação</text>
+    </g>
+    <g transform="translate(706 406)" opacity="1">
+      <animate attributeName="opacity"
+               values="0;1"
+               dur=".42s"
+               begin="2.75s"
+               fill="freeze"/>
+      <animateTransform attributeName="transform"
+                        additive="sum"
+                        type="translate"
+                        values="0 0;0 -3;0 0"
+                        dur="5.10s"
+                        begin="3.10s"
+                        repeatCount="indefinite"/>
+      <rect width="113" height="30" rx="15"
+            fill="#071b13" fill-opacity=".82"
+            stroke="#1e6b4c" stroke-opacity=".82"/>
+      <circle cx="15" cy="15" r="3" fill="#28f0a5">
+        <animate attributeName="r"
+                 values="2.6;4.1;2.6"
+                 dur="3.00s"
+                 repeatCount="indefinite"/>
+        <animate attributeName="opacity"
+                 values=".55;1;.55"
+                 dur="3.30s"
+                 repeatCount="indefinite"/>
+      </circle>
+      <text x="27" y="19.5" class="pill">Self-hosted</text>
+    </g>
+    <g transform="translate(828 406)" opacity="1">
+      <animate attributeName="opacity"
+               values="0;1"
+               dur=".42s"
+               begin="2.85s"
+               fill="freeze"/>
+      <animateTransform attributeName="transform"
+                        additive="sum"
+                        type="translate"
+                        values="0 0;0 -3;0 0"
+                        dur="5.65s"
+                        begin="3.20s"
+                        repeatCount="indefinite"/>
+      <rect width="113" height="30" rx="15"
+            fill="#071b13" fill-opacity=".82"
+            stroke="#1e6b4c" stroke-opacity=".82"/>
+      <circle cx="15" cy="15" r="3" fill="#28f0a5">
+        <animate attributeName="r"
+                 values="2.6;4.1;2.6"
+                 dur="2.30s"
+                 repeatCount="indefinite"/>
+        <animate attributeName="opacity"
+                 values=".55;1;.55"
+                 dur="2.70s"
+                 repeatCount="indefinite"/>
+      </circle>
+      <text x="27" y="19.5" class="pill">Open Source</text>
+    </g>
+
+  <text x="500" y="470" class="label">STACK.SELECIONADA</text>
+  
+    <g transform="translate(520 481)" opacity="1">
+      <animate attributeName="opacity"
+               values="0;1"
+               dur=".42s"
+               begin="2.95s"
+               fill="freeze"/>
+      <animateTransform attributeName="transform"
+                        additive="sum"
+                        type="translate"
+                        values="0 0;0 -3;0 0"
+                        dur="4.00s"
+                        begin="3.30s"
+                        repeatCount="indefinite"/>
+      <rect width="86" height="30" rx="15"
+            fill="#071b13" fill-opacity=".82"
+            stroke="#1e6b4c" stroke-opacity=".82"/>
+      <circle cx="15" cy="15" r="3" fill="#28f0a5">
+        <animate attributeName="r"
+                 values="2.6;4.1;2.6"
+                 dur="2.65s"
+                 repeatCount="indefinite"/>
+        <animate attributeName="opacity"
+                 values=".55;1;.55"
+                 dur="3.00s"
+                 repeatCount="indefinite"/>
+      </circle>
+      <text x="27" y="19.5" class="pill">Python</text>
+    </g>
+    <g transform="translate(622 481)" opacity="1">
+      <animate attributeName="opacity"
+               values="0;1"
+               dur=".42s"
+               begin="3.05s"
+               fill="freeze"/>
+      <animateTransform attributeName="transform"
+                        additive="sum"
+                        type="translate"
+                        values="0 0;0 -3;0 0"
+                        dur="4.55s"
+                        begin="3.40s"
+                        repeatCount="indefinite"/>
+      <rect width="86" height="30" rx="15"
+            fill="#071b13" fill-opacity=".82"
+            stroke="#1e6b4c" stroke-opacity=".82"/>
+      <circle cx="15" cy="15" r="3" fill="#28f0a5">
+        <animate attributeName="r"
+                 values="2.6;4.1;2.6"
+                 dur="3.00s"
+                 repeatCount="indefinite"/>
+        <animate attributeName="opacity"
+                 values=".55;1;.55"
+                 dur="3.30s"
+                 repeatCount="indefinite"/>
+      </circle>
+      <text x="27" y="19.5" class="pill">Docker</text>
+    </g>
+    <g transform="translate(727 481)" opacity="1">
+      <animate attributeName="opacity"
+               values="0;1"
+               dur=".42s"
+               begin="3.15s"
+               fill="freeze"/>
+      <animateTransform attributeName="transform"
+                        additive="sum"
+                        type="translate"
+                        values="0 0;0 -3;0 0"
+                        dur="5.10s"
+                        begin="3.50s"
+                        repeatCount="indefinite"/>
+      <rect width="86" height="30" rx="15"
+            fill="#071b13" fill-opacity=".82"
+            stroke="#1e6b4c" stroke-opacity=".82"/>
+      <circle cx="15" cy="15" r="3" fill="#28f0a5">
+        <animate attributeName="r"
+                 values="2.6;4.1;2.6"
+                 dur="2.30s"
+                 repeatCount="indefinite"/>
+        <animate attributeName="opacity"
+                 values=".55;1;.55"
+                 dur="2.70s"
+                 repeatCount="indefinite"/>
+      </circle>
+      <text x="27" y="19.5" class="pill">Linux</text>
+    </g>
+    <g transform="translate(818 481)" opacity="1">
+      <animate attributeName="opacity"
+               values="0;1"
+               dur=".42s"
+               begin="3.25s"
+               fill="freeze"/>
+      <animateTransform attributeName="transform"
+                        additive="sum"
+                        type="translate"
+                        values="0 0;0 -3;0 0"
+                        dur="5.65s"
+                        begin="3.60s"
+                        repeatCount="indefinite"/>
+      <rect width="86" height="30" rx="15"
+            fill="#071b13" fill-opacity=".82"
+            stroke="#1e6b4c" stroke-opacity=".82"/>
+      <circle cx="15" cy="15" r="3" fill="#28f0a5">
+        <animate attributeName="r"
+                 values="2.6;4.1;2.6"
+                 dur="2.65s"
+                 repeatCount="indefinite"/>
+        <animate attributeName="opacity"
+                 values=".55;1;.55"
+                 dur="3.00s"
+                 repeatCount="indefinite"/>
+      </circle>
+      <text x="27" y="19.5" class="pill">FastAPI</text>
+    </g>
+    <g transform="translate(520 522)" opacity="1">
+      <animate attributeName="opacity"
+               values="0;1"
+               dur=".42s"
+               begin="3.35s"
+               fill="freeze"/>
+      <animateTransform attributeName="transform"
+                        additive="sum"
+                        type="translate"
+                        values="0 0;0 -3;0 0"
+                        dur="4.00s"
+                        begin="3.70s"
+                        repeatCount="indefinite"/>
+      <rect width="86" height="30" rx="15"
+            fill="#071b13" fill-opacity=".82"
+            stroke="#1e6b4c" stroke-opacity=".82"/>
+      <circle cx="15" cy="15" r="3" fill="#28f0a5">
+        <animate attributeName="r"
+                 values="2.6;4.1;2.6"
+                 dur="3.00s"
+                 repeatCount="indefinite"/>
+        <animate attributeName="opacity"
+                 values=".55;1;.55"
+                 dur="3.30s"
+                 repeatCount="indefinite"/>
+      </circle>
+      <text x="27" y="19.5" class="pill">Node.js</text>
+    </g>
+    <g transform="translate(636 522)" opacity="1">
+      <animate attributeName="opacity"
+               values="0;1"
+               dur=".42s"
+               begin="3.45s"
+               fill="freeze"/>
+      <animateTransform attributeName="transform"
+                        additive="sum"
+                        type="translate"
+                        values="0 0;0 -3;0 0"
+                        dur="4.55s"
+                        begin="3.80s"
+                        repeatCount="indefinite"/>
+      <rect width="106" height="30" rx="15"
+            fill="#071b13" fill-opacity=".82"
+            stroke="#1e6b4c" stroke-opacity=".82"/>
+      <circle cx="15" cy="15" r="3" fill="#28f0a5">
+        <animate attributeName="r"
+                 values="2.6;4.1;2.6"
+                 dur="2.30s"
+                 repeatCount="indefinite"/>
+        <animate attributeName="opacity"
+                 values=".55;1;.55"
+                 dur="2.70s"
+                 repeatCount="indefinite"/>
+      </circle>
+      <text x="27" y="19.5" class="pill">Cloudflare</text>
+    </g>
+    <g transform="translate(773 522)" opacity="1">
+      <animate attributeName="opacity"
+               values="0;1"
+               dur=".42s"
+               begin="3.55s"
+               fill="freeze"/>
+      <animateTransform attributeName="transform"
+                        additive="sum"
+                        type="translate"
+                        values="0 0;0 -3;0 0"
+                        dur="5.10s"
+                        begin="3.90s"
+                        repeatCount="indefinite"/>
+      <rect width="86" height="30" rx="15"
+            fill="#071b13" fill-opacity=".82"
+            stroke="#1e6b4c" stroke-opacity=".82"/>
+      <circle cx="15" cy="15" r="3" fill="#28f0a5">
+        <animate attributeName="r"
+                 values="2.6;4.1;2.6"
+                 dur="2.65s"
+                 repeatCount="indefinite"/>
+        <animate attributeName="opacity"
+                 values=".55;1;.55"
+                 dur="3.00s"
+                 repeatCount="indefinite"/>
+      </circle>
+      <text x="27" y="19.5" class="pill">GitHub</text>
+    </g>
+
+  <!-- Linha de atividade / heartbeat -->
+  <path d="M500 566 L560 566 L570 555 L580 576 L590 548 L602 566 L670 566 L682 558 L692 566 L1120 566"
+        fill="none"
+        stroke="#29f0a7"
+        stroke-width="1.25"
+        opacity=".50"
+        stroke-dasharray="18 8">
+    <animate attributeName="stroke-dashoffset"
+             values="0;-104"
+             dur="3.4s"
+             repeatCount="indefinite"/>
+  </path>
+
+  <circle cx="1118" cy="566" r="4" fill="#29f0a7">
+    <animate attributeName="r"
+             values="2.5;5.5;2.5"
+             dur="1.7s"
+             repeatCount="indefinite"/>
+    <animate attributeName="opacity"
+             values=".4;1;.4"
+             dur="1.7s"
+             repeatCount="indefinite"/>
+  </circle>
+</svg>
